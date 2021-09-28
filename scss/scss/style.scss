@@ -3,7 +3,7 @@
 // Variables
 @import "./variables/variables";
 
-//Mixins
+// Mixins
 @import "./mixins/mixins";
 
 // Fonts
@@ -12,12 +12,11 @@
 // Base
 @import "./base/base";
 
-// Pages
-@import "./pages/pages";
-
 // Utilities
 @import "./functions/functions";
 
 // Sections
-@import "./navbar/navbar";
+@import "./section/section"
+
+
 
