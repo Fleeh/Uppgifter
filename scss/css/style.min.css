@@ -445,6 +445,11 @@ html, body {
   padding-right: 216px;
 }
 
+#navbar .container .navbar-brand {
+  padding-left: 140px;
+  padding-top: 10px;
+}
+
 #navbar .navbar-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -481,18 +486,32 @@ html, body {
 }
 
 #showcase .showcase-text h1 {
-  padding-top: 218px;
-  padding-left: 370px;
+  padding-top: 245px;
+  padding-left: 350px;
   font-family: "Poppins";
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 700;
   color: #252525;
   line-height: 1.2;
 }
 
-#showcase .showcase-screen {
-  padding-top: 130px;
-  padding-right: 190px;
+.imgScreen {
+  position: absolute;
+  width: 950px;
+  top: 220px;
+  left: 935px;
+}
+
+.showcase-blob {
+  position: relative;
+}
+
+.showcase-blob img {
+  position: absolute;
+  top: -160px;
+  left: -90px;
+  width: 1220px;
+  height: auto;
 }
 
 #showcase .showcase-text p {
@@ -520,37 +539,27 @@ html, body {
   border-radius: 5px;
 }
 
-#subsection .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#subsection .subsection-text h1 {
-  padding-top: 150px;
-  padding-left: 380px;
-  padding-right: 1200px;
+.texth1 {
+  padding-top: 50px;
+  padding-right: 0px;
   padding-bottom: 20px;
   font-family: "Poppins";
-  font-size: 2.3rem;
+  font-size: rem;
   font-weight: 700;
   color: #252525;
   line-height: 1.3;
 }
 
-#subsection .subsection-text p {
+.textp {
   font-family: "Roboto";
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.7;
-  padding-left: 380px;
-  padding-right: 1100px;
   padding-bottom: 25px;
 }
 
-#subsection .subsection-text button {
+.button1 {
   font-family: "Roboto";
-  margin-left: 375px;
   font-size: 14px;
   background: -webkit-gradient(linear, left top, right top, from(#F23779), color-stop(#FF6803), to(#FFA62E));
   background: linear-gradient(to right, #F23779, #FF6803, #FFA62E);
@@ -559,17 +568,83 @@ html, body {
   font-weight: 700;
   font-size: 0.7rem;
   border-radius: 5px;
-  padding: 0.85rem 1.7rem;
-  padding-bottom: 10px;
+  padding: 0.7rem 1.9rem;
 }
 
-#subsection .services {
-  -ms-grid-row: 2;
-  grid-row: 2;
-  text-align: center;
-  gap: 2rem;
+.wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 25px;
+  -ms-grid-columns: (150px)[6];
+      grid-template-columns: repeat(6, 150px);
+  -ms-grid-rows: (150px)[4];
+      grid-template-rows: repeat(4, 150px);
+  background-color: #fff;
+  color: #444;
+  padding-top: 300px;
+  padding-left: 340px;
+}
+
+.box {
+  padding: 100px 30px;
+  font-size: 150%;
+}
+
+.box .box {
+  border: 1px solid black;
+}
+
+.a {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1 / 4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 5;
+  grid-row: 1 / 6;
+  padding-bottom: 170px;
+}
+
+.b {
+  grid-column: 4 / 2 span;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1 / 4;
+}
+
+.c {
+  grid-column: 6 / 2 span;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1 /  4;
+  padding-left: 125px;
+}
+
+.d {
+  grid-column: 6 / 2 span;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  grid-row: 3 / 6;
+  padding-left: 125px;
+}
+
+.e {
+  grid-column: 4 / 2 span;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  grid-row: 3 / 6;
+}
+
+.bold {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.para {
+  font-family: "Roboto";
+  font-size: 15px;
+  line-height: 1.75;
 }
