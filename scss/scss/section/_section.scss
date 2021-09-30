@@ -1,4 +1,3 @@
-//HEADER SECTION
 
 //NAVBAR
 
@@ -49,29 +48,32 @@
     
 }
 #showcase .showcase-text h1 {
-    padding-top: 245px;
-    padding-left:350px;
+    position:relative;
+    padding-top: 145px;
     font-family: $poppins;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     color: $color-headline;
     line-height: 1.2;
+    left: 340px;
+    top: 100px;
+    
 }
 
 .imgScreen {
     position: absolute;
-    width: 950px;
+    width: 1025px;
     top: 220px;
-    left: 935px;
+    left: 865px;
 }
 .showcase-blob {
     position: relative;
         
         img {
-            position: absolute;
-            top: -160px;
-            left: -90px;
-            width: 1220px;
+            position: relative;
+            top: -170px;
+            left: 200px;
+            width: 1300px;
             height: auto;
     }
     
@@ -82,14 +84,13 @@
     padding-top: 1rem;
     font-weight: 400 ;
     line-height: 2;
-    margin-left: 375px;
-    margin-right: 30px;
+    position:relative;
+    left: 345px;
+    top: 120px;
 }
 
 #showcase .showcase-text button {
     font-family: $roboto;
-    margin-left: 375px;
-    margin-top: 25px;
     font-size: 14px;
     background: linear-gradient(to right, #F23779, #FF6803, #FFA62E);
     border: 0px solid transparent;
@@ -98,6 +99,9 @@
     font-size: 0.7rem;
     padding: 0.85rem 1.9rem;
     border-radius: 5px;
+    position:relative;
+    left: 345px;
+    top: 145px;
 }
 
 // SUBSECTION
@@ -107,7 +111,7 @@
     padding-right: 0px;
     padding-bottom: 20px;
     font-family: $poppins;
-    font-size: rem;
+    font-size: 2.6rem;
     font-weight: 700;
     color: $color-headline;
     line-height: 1.3;
@@ -141,8 +145,10 @@
     grid-template-rows: repeat( 4, 150px);
     background-color: #fff;
     color: #444;
-    padding-top: 300px;
     padding-left: 340px;
+    position:relative;
+    top: -300px;
+    
 }
 
 
@@ -188,9 +194,369 @@
     font-family: $poppins;
     font-weight: 700;
     font-size: 22px;
+    line-height: 3;
 }
 .para {
     font-family: $roboto;
     font-size: 15px;
     line-height: 1.75;
+}
+
+.content-area {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -200px;
+    
+    
+    
+}
+
+.img-area {
+    padding-left: 175px;
+    padding-bottom: 570px;
+}
+
+.content-text {
+    font-family: $poppins;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: $color-headline;
+    line-height: 1;
+    padding-right: 400px;
+}
+.content-text h2 {
+    font-family: $poppins;
+    font-size: 60px;
+    color: $color-pink;
+    line-height: 3.5;
+}
+
+.content-text h3 {
+    font-family: $poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 4.5;
+    padding-left: 125px;
+    position: relative;
+    top:-600px;
+    
+}
+
+.content-text p {
+    font-family: $roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: $color-main;
+    line-height: 1.7;
+    padding-left: 125px;
+    position: relative;
+    top: -620px;
+    left:4px;
+
+}
+
+.attachments {
+    position:relative;
+    top: -685px;
+    padding-left: 600px;
+}
+.attachment-h1 {
+    font-family: $poppins;
+    font-size: 46px;
+    font-weight: 700;
+    color: $color-headline;
+    line-height: 1.3;
+    padding-right: 680px;
+    text-align: center;
+    
+    
+}
+
+.attachment-p {
+    font-family: $roboto;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 25px;
+    text-align: center;
+    padding-right: 680px;
+   
+}
+.attachment-map {
+    position: relative;
+    left: -50px;
+    width: 660px;
+    color: $border-color;
+}
+
+.attachment-map-h1 {
+    position:absolute;
+    display:flex;
+    gap: 197px;
+    left:435px;
+    top: 310px;
+    color: $color-pink;
+    font-family: $poppins;
+    
+}
+
+.attachment-map-p {
+position:absolute;
+    display:flex;
+    gap: 215px;
+    left:437px;
+    top: 345px;
+    color: $color-main;
+    font-family: $roboto;
+    font-size: 14px;
+}
+
+.box-button {
+    filter: drop-shadow(2px 2px 2px #d4d3d3);
+    border-color: $border-color;
+    border-radius: 5px;
+    position:relative;
+    right: -45px;
+    width: 550px;
+    height: 130px;
+    top:-150px;
+    background-color: $white;
+}
+.box-button h1 {
+    font-family: $poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-top: 35px;
+    padding-left: 35px;
+    color: $color-headline
+    
+}
+
+.box-button p {
+    font-family: $roboto;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 35px;
+}
+
+.box-button button {
+    font-family: $roboto;
+    font-size: 14px;
+    background: linear-gradient(to right, #F23779, #FF6803, #FFA62E);
+    border: 0px solid transparent;
+    color: $white;
+    font-weight: 700;
+    font-size: 0.7rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 5px;
+    position:relative;
+    top: -50px;
+    left: 410px;
+}
+
+.attachments-2 {
+    font-family: $poppins;
+    font-size: 46px;
+    font-weight: 700;
+    color: $color-headline;
+    line-height: 1.3;
+    text-align: center;
+    position: relative;
+    top: -675px;
+    left: 315px;
+}
+.attachments-2 p {
+    font-family: $roboto;
+    color: $color-main;
+}
+
+#footer .black-image-1 {
+    position:absolute;
+    height: 300px;
+    color: $border-color;
+    top: -350px;
+    width: 400px;
+    left: 335px;
+    
+}
+#footer .black-image-2 {
+    position:absolute;
+    height: 300px;
+    color: $border-color;
+    top: -350px;
+    width: 400px;
+    left: 710px;
+    
+    
+}
+
+#footer .black-image-3 {
+    position:absolute;
+    height: 300px;
+    color: $border-color;
+    top: -350px;
+    width: 400px;
+    right:418px;
+    
+}
+
+#footer {
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    left: 20px;
+    top: -300px;
+    margin-bottom: -200px;
+}
+
+#footer .footer-h2 {
+    font-family: $poppins;
+    font-size: 14px;
+    color: $color-orange;
+    font-weight: 600;
+}
+
+#footer .footer-h1 {
+    font-family: $poppins;
+    font-size: 22px;
+    color: $color-headline;
+    font-weight:700;
+}
+
+#footer .footer-p {
+    font-family: $roboto;
+    font-size: 16px;
+    color: $color-main;
+    font-weight:400;
+}
+
+#footer .button-footer-1 {
+    font-family: $roboto;
+    font-size: 14px;
+    background: linear-gradient(to right, #F23779, #FF6803, #FFA62E);
+    border: 0px solid transparent;
+    color: $white;
+    font-weight: 700;
+    font-size: 0.7rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 5px;
+    position:relative;
+    top: -50px;
+    left: 410px;
+}
+
+#footer .footer-1 h2 {
+    position:relative;
+    left: 375px;
+    top:-55px;
+}
+
+#footer .footer-2 h2 {
+    position:relative;
+    left: -85px;
+    top:-55px;
+}
+
+#footer .footer-3 h2 {
+    position:relative;
+    left: -535px;
+    top:-55px;
+}
+
+#footer .footer-1 h1 {
+    position:relative;
+    left: 375px;
+    top: -60px;
+}
+
+#footer .footer-2 h1 {
+    position:relative;
+    left:-85px;
+    top: -60px;
+}
+
+#footer .footer-3 h1 {
+    position:relative;
+    left:-535px;
+    top: -60px;
+}
+
+#footer .footer-1 p {
+    position:relative;
+    left: 375px;
+    top: -55px;
+}
+
+#footer .footer-2 p {
+    position:relative;
+    left:-85px;
+    top: -60px;
+}
+
+#footer .footer-3 p {
+    position:relative;
+    left:-535px;
+    top: -60px;
+}
+
+#footer .footer-1 button {
+    position:relative;
+    left: 375px;
+    top: -40px;
+}
+
+#footer .footer-2 button {
+    position:relative;
+    left: -85px;
+    top: -40px;
+}
+
+#footer .footer-3 button {
+    position:relative;
+    left: -535px;
+    top: -40px;
+}
+
+.end {
+    height:0;
+}
+.end .borderz-1 {
+    position:relative;
+    height: 300px;
+    width: 352px;
+    left: 379px;
+    top: -412px;
+    filter: drop-shadow(0px 3px 2px #e2e2e2);
+    background-color: $white;
+    color: #FFFFFF;
+    z-index:-1
+
+}
+
+.end .borderz-2 {
+    position:relative;
+    height: 300px;
+    width: 352px;
+    left: 754px;
+    top: -712px;
+    filter: drop-shadow(0px 3px 2px #e2e2e2);
+    background-color: $white;
+    color: #FFFFFF;
+    z-index:-1
+
+}
+
+.end .borderz-3 {
+    position:relative;
+    height: 300px;
+    width: 352px;
+    left: 1129px;
+    top: -1012px;
+    filter: drop-shadow(0px 3px 2px #e2e2e2);
+    background-color: $white;
+    color: #FFFFFF;
+    z-index:-1
+
 }
